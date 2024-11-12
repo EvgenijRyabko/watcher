@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("../fonts/RubikWetPaint-Regular.ttf");
+}
+
+.main {
+  background-image: url("../assets/backgroung.jpg");
+}
+
+.scary-font {
+  font-family: "myFirstFont";
+}

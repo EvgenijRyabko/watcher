@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Watcher</title>
+  </head>
+  <body>
+    <main
+      class="bg-black main w-full h-screen grid grid-rows-[20%_80%] items-center justify-center"
+    >
+      <h1 class="text-white scary-font tracking-wide text-8xl font-bold">
+        I'm watching for you
+      </h1>
+      <div class="container" hidden>
+        <video
+          autoplay
+          playsinline
+          webkit-playsinline
+          muted
+          id="videoelement"
+          style="max-width: 100%; height: auto"
+        />
+      </div>
+      <img
+        id="eye"
+        src="./assets/favicon.png"
+        class="w-3/4 place-self-center invert"
+      />
+    </main>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./config/env.js"></script>
+  </body>
+</html>
